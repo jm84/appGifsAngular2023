@@ -11,7 +11,7 @@ export class GifsService {
   // para guardar lo que se esté buscando
   private _tagsHistory: string[] = [];
   private apiKey: string = 'Psx8BfakIKio3DWYbDhEdWKa6Zy68cc1';
-  private serviceUrl: string = 'https:api.giphy.com/v1/gifs';
+  private serviceUrl: string = 'https://api.giphy.com/v1/gifs';
 
   constructor(private http: HttpClient) {
     this.loadLocalStorage();
